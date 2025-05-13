@@ -92,7 +92,7 @@ function Page() {
               />
             </div>
             <div className="px-3 py-2 text-center text-black text-sm md:text-base font-semibold border-t-2 border-black">
-              This is me
+              Me and my GF!!!!
             </div>
           </motion.div>
 

@@ -7,6 +7,7 @@ import loml from "../Images/loml.png";
 import datafaker from "../Images/datafaker.png";
 import ducom from "../Images/ducom.png";
 import mbanking from "../Images/mbanking.png";
+import finsta from "../Images/finsta.png";
 import ProjectCard from "../components/ProjectCard";
 
 const useTypingEffect = (text, speed = 50) => {
@@ -74,6 +75,13 @@ function Page() {
         "I created this application's prototype in Figma, inspired by the concepts of the MyBCA and m-BCA apps, as part of a school assignment. I hope that one day I can bring this app to life.",
       image: mbanking,
       link: "https://www.figma.com/proto/S193f5HJsozOMWf1Ba2QCt/mbanking-ui?node-id=7-123",
+    },
+    {
+      title: "Finsta",
+      description:
+        "A web-based crypto portfolio tracker built with Vue 3 and Vite. It integrates with the CoinGecko API to fetch real-time crypto prices, lets users manage their assets, and calculates current values and profit/loss automatically.",
+      image: finsta,
+      link: "https://github.com/MikaGeshan/Finsta",
     },
   ];
 

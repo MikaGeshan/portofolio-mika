@@ -5,6 +5,7 @@ import portfolio from "../Images/portfolio.jpeg";
 import js from "../Images/jslogo.png";
 import html from "../Images/html5.png";
 import react from "../Images/react.png";
+import vue from "../Images/vue.png";
 import tailwind from "../Images/tailwind.png";
 import next from "../Images/nextjs.png";
 import laravel from "../Images/laravel.png";
@@ -52,6 +53,7 @@ function Page() {
     { src: js, alt: "JavaScript" },
     { src: html, alt: "HTML5" },
     { src: react, alt: "React" },
+    { src: vue, alt: "Vue" },
     { src: next, alt: "NextJS" },
     { src: tailwind, alt: "Tailwind CSS" },
   ];

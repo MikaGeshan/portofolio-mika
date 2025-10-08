@@ -9,23 +9,40 @@ function Footer() {
   return (
     <footer className="bg-blue-700 text-white border-t-4 border-black shadow-[0_6px_0_0_black] px-8 py-12">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-start gap-8 mb-8">
-        {/* Mika Geshan Section */}
+        {/* ProfileSection */}
         <div className="text-left">
           <h1 className="text-2xl font-bold tracking-wider">Mika Geshan</h1>
           <div className="flex justify-start gap-4 mt-4">
-            <a href="#" title="GitHub">
+            <a
+              href="https://github.com/MikaGeshan"
+              title="GitHub"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <GithubIcon className="w-7 h-7 transition-transform hover:scale-110 hover:fill-black" />
             </a>
-            <a href="#" title="LinkedIn">
+            <a
+              href="https://www.linkedin.com/in/mika-geshan-1741b7330"
+              title="LinkedIn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <LinkedInIcon className="w-7 h-7 transition-transform hover:scale-110 hover:fill-[#0077b5]" />
             </a>
             <a
               href="https://www.instagram.com/noturfavmikaaa/"
               title="Instagram"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <InstagramIcon className="w-7 h-7 transition-transform hover:scale-110 hover:fill-[#E1306C]" />
             </a>
-            <a href="#" title="TikTok">
+            <a
+              href="https://www.tiktok.com/@pemudaresing0"
+              title="TikTok"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <TiktokIcon className="w-7 h-7 transition-transform hover:scale-110 hover:fill-[#000000]" />
             </a>
           </div>

@@ -1,11 +1,5 @@
 import React from "react";
 
-import instagramIcon from "../Images/icons/instagram.svg?url";
-import githubIcon from "../Images/icons/github.svg?url";
-import linkedinIcon from "../Images/icons/linkedin.svg?url";
-import tiktokIcon from "../Images/icons/tiktok.svg?url";
-import gmailIcon from "../Images/icons/gmail.svg?url";
-
 function Footer() {
   return (
     <footer className="bg-blue-700 text-white border-t-4 border-black shadow-[0_6px_0_0_black] px-8 py-12">
@@ -15,7 +9,7 @@ function Footer() {
           <div className="flex justify-start gap-4 mt-4">
             <a href="https://github.com/MikaGeshan" target="_blank">
               <img
-                src={githubIcon}
+                src="/github.svg"
                 alt="GitHub"
                 className="w-7 h-7 hover:scale-110 transition-transform"
               />
@@ -25,21 +19,21 @@ function Footer() {
               target="_blank"
             >
               <img
-                src={linkedinIcon}
+                src="/linkedin.svg"
                 alt="LinkedIn"
                 className="w-7 h-7 hover:scale-110 transition-transform"
               />
             </a>
             <a href="https://www.instagram.com/noturfavmikaaa/" target="_blank">
               <img
-                src={instagramIcon}
+                src="/instagram.svg"
                 alt="Instagram"
                 className="w-7 h-7 hover:scale-110 transition-transform"
               />
             </a>
             <a href="https://www.tiktok.com/@pemudaresing0" target="_blank">
               <img
-                src={tiktokIcon}
+                src="/tiktok.svg"
                 alt="TikTok"
                 className="w-7 h-7 hover:scale-110 transition-transform"
               />
@@ -53,7 +47,7 @@ function Footer() {
             href="mailto:mikageshan@gmail.com"
             className="flex items-center gap-2"
           >
-            <img src={gmailIcon} alt="Gmail" className="w-6 h-6" />
+            <img src="/gmail.svg" alt="Gmail" className="w-6 h-6" />
             mikageshan@gmail.com
           </a>
         </div>

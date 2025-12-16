@@ -3,7 +3,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import travello from "../Images/travello.png";
-import loml from "../Images/loml.png";
 import datafaker from "../Images/datafaker.png";
 import ducom from "../Images/ducom.png";
 import mbanking from "../Images/mbanking.png";
@@ -47,13 +46,6 @@ function Page() {
         "This project was created for my LSP certification exam, where I was tasked with building a simple hotel reservation website with client and admin features. I used React for the front-end to create a responsive UI, and Laravel for the back-end to handle room management, reservations, and authentication.",
       image: travello,
       link: "https://github.com/MikaGeshan/travello-kamar",
-    },
-    {
-      title: "loml",
-      description:
-        "This is just a fun website made for your partner. I got the idea from TikTok and completely redesigned it with my own concept.",
-      image: loml,
-      link: "https://github.com/MikaGeshan/loml",
     },
     {
       title: "Datafaker",
